@@ -2,11 +2,6 @@
 /**
  * add theme support to dashboard, like header image
  */
-// add_theme_support( 'custom-header' );
-
-/**
- * add arguments to the theme support
- */
 $arguments = array(
 	'flex-width'    => true,
 	'width'         => 980,

@@ -33,10 +33,10 @@
     <div class="row">
         <h1 class=""><a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
         <p class=""><?php echo get_bloginfo( 'description' ); ?></p>
-    </div>
+    </div><hr>
     <nav class="navbar">
         <a class="nav-link" href="#">Home</a>
-        <?php $thisCat = get_category('&title_li='); ?>
+        <?php wp_list_categories( '&title_li=' ); ?>
         <?php wp_list_pages( '&title_li=' ); ?>
-    </nav>    
+    </nav> <hr>   
 </div> 
